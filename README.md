@@ -1,6 +1,6 @@
 # url-requested
 
-A simple script that makes list of all the urls that a site request upon loading. The results are then saved to a txt file. 
+A simple script that makes a list of all the URLs that a site request upon loading. The results are then saved to a txt file.
 
 ## Installation
 
