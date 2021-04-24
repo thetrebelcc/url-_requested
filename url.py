@@ -53,10 +53,10 @@ for url in request_listing:
 
 
 def pause():
-    programPause = input("Press the <ENTER> key to see list of domains that were parsed")
+    programPause = input("Press the any key to see list of domains that were parsed and results will be saved to result$.txt ")
     pprint(parsed_urls)
 
-    sys.stdout = open("test.txt", "w")
+    sys.stdout = open("result$.txt", "w")
     pprint(parsed_urls)
     sys.stdout.close()
 
